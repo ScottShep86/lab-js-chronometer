@@ -9,6 +9,10 @@ class Chronometer {
 
   getMinutes() {
     // ... your code goes here
+    const totalMinutes = this.currentTime / 60
+
+    return Math.floor(totalMinutes)
+  }
   }
 
   getSeconds() {
